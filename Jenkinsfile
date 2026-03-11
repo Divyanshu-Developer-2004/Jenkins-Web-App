@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                git branch: 'head', url: 'https://github.com/Divyanshu-Developer-2004/Jenkins-Web-App'
+                git branch: 'master', url: 'https://github.com/Divyanshu-Developer-2004/Jenkins-Web-App'
             }
         }
 
